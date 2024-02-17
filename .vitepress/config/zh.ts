@@ -76,16 +76,16 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarGuide(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Getting started',
+      text: '开始',
       collapsed: false,
       items: [
-        { text: 'Introduction', link: 'intro/' },
-        { text: 'Installation', link: 'install/' },
-        { text: 'Folder structure', link: 'folder-structure/' },
-        { text: 'Config', link: 'config/' },
-        { text: 'Environment variables', link: 'environment/' },
-        { text: 'FAQs', link: 'faqs/' },
-        { text: 'Releases', link: 'releases/' },
+        { text: '简介', link: 'intro/' },
+        { text: '安装', link: 'install/' },
+        { text: '文件结构', link: 'folder-structure/' },
+        { text: '配置', link: 'config/' },
+        { text: '环境变量', link: 'environment/' },
+        { text: 'FAQ', link: 'faqs/' },
+        { text: '发布版本', link: 'releases/' },
       ]
     },
     {
