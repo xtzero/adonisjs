@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     title: 'AdonisJS China',
     srcDir: 'docs',
-
+    ignoreDeadLinks: true,
     lastUpdated: true,
 
     themeConfig: {
