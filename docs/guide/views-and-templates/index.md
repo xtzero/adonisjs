@@ -5,7 +5,7 @@ AdonisJS is an excellent fit for creating traditional server-rendered applicatio
 The typical workflow of a server-rendered application in AdonisJS looks as follows.
 
 - Choose a template engine to render HTML dynamically.
-- Use [Vite](./assets_bundling.md) for bundling CSS and frontend JavaScript.
+- Use [Vite](/guide/assets_bundling/) for bundling CSS and frontend JavaScript.
 - Optionally, you can opt for libraries like [HTMX](https://htmx.org/) or [Unpoly](https://unpoly.com/) to progressively enhance your application and navigate like an SPA.
 
 ## Choosing a template engine
@@ -101,8 +101,8 @@ You can also use the `router.on.render` method to render a template without assi
 router.on('/').render('welcome')
 ```
 
-## Configuring Edge
-You can use Edge plugins or add global helpers to Edge by creating a [preload file](../fundamentals/adonisrc_file.md#preloads) inside the `start` directory.
+## Configuring Edge {#configuring-edge}
+You can use Edge plugins or add global helpers to Edge by creating a [preload file](/guide/adonis-rc-file/index.html#preloads) inside the `start` directory.
 
 ```sh
 node ace make:preload view
@@ -126,4 +126,4 @@ edge.global('appUrl', env.get('APP_URL'))
 ```
 
 ## Global helpers
-Please check the [Edge helpers reference guide](../reference/edge.md) to view the list of helpers contributed by AdonisJS.
+Please check the [Edge helpers reference guide](/guide/edge-helpers-and-tags/) to view the list of helpers contributed by AdonisJS.

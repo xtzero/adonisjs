@@ -10,7 +10,8 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "deploy": "scp -r ./.vitepress/dist root@huaweiyun.xt:/data/www/adonisjs"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-rc.42"

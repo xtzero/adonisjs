@@ -116,7 +116,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'SQL & ORMs', link: 'sql_and_orms/' },
-        { text: 'Redis', link: 'redi/s' }
+        { text: 'Redis', link: 'redis' }
       ]
     },
     {
@@ -160,7 +160,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Application', link: 'application/' },
         { text: 'Application Lifecycle', link: 'application-lifecycle/' },
         { text: 'AdonisRC file', link: 'adonis-rc-file/' },
-        { text: 'IoC container', link: 'ioc-container/' },
+        { text: 'IoC container', link: 'ioc_container/' },
         { text: 'Container services', link: 'container-services/' },
         { text: 'Service Providers', link: 'service-providers/' },
         { text: 'Config providers', link: 'config-providers/' },

@@ -2,3 +2,4 @@
 node_modules
 yarn.lock
 .vitepress/dist
+.DS_Store
